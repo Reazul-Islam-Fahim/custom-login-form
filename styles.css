@@ -148,6 +148,10 @@ text-transform: uppercase;
 transition: transform 80ms ease-in;
 }
 
+.btn:hover {
+    background-image: linear-gradient(90deg, var(--lightblue) 0%, var(--blue) 74%);
+    }
+
 .form > .btn {
 margin-top: 1.5rem;
 }
@@ -292,11 +296,20 @@ display: none;
         font-size: 14px;
     }
 
+    .login-form-container input:hover {
+        background-color: rgb(210, 210, 255);
+
+    }
+
     .login-form-container button {
         padding: 12px;
-        background-color: #4a728a;
+        background-image: linear-gradient(90deg, var(--lightblue) 0%, var(--blue) 74%);
         color: white;
         font-size: 16px;
         border-radius: 5px;
+    }
+
+    .login-form-container button:hover {
+        background-image: linear-gradient(90deg, var(--blue) 0%, var(--lightblue) 74%);
     }
 }
